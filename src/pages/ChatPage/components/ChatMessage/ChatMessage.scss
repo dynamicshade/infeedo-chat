@@ -1,0 +1,26 @@
+.chat-message-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chat-message-column {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+
+.message-owner-name-div {
+  width: fit-content;
+  font-size: 0.8rem;
+}
+
+.chat-timestamp {
+  width: fit-content;
+  font-size: 0.8rem;
+}
+.user-chat-timestamp {
+  align-self: flex-end;
+}
+.chatbot-chat-timestamp {
+  align-self: flex-start;
+}

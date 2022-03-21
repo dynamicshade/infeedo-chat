@@ -1,0 +1,24 @@
+.chat-window-header {
+  height: 64px;
+  background-color: #51cbcc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.chatbot-image-div {
+  background-color: white;
+  height: 38px;
+  width: 38px;
+  box-shadow: black 0px 0px 4px;
+  border-radius: 50%;
+  background-image: url(https://www.infeedo.ai/hubfs/Imported%20sitepage%20images/Comp-7size.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.chatbot-title {
+  margin-left: 12px;
+  font-size: 1.1rem;
+}
